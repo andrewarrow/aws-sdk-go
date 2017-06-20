@@ -5,7 +5,11 @@ import "github.com/aws/aws-sdk-go/service/s3/s3iface"
 import "github.com/aws/aws-sdk-go/aws/client"
 
 /*
-You can store individual objects of up to 5 TB in Amazon S3. You create a copy of your object up to 5 GB in size in a single atomic operation using this API. However, for copying an object greater than 5 GB, you must use the multipart upload Upload Part - Copy API.
+You can store individual objects of up to 5 TB in Amazon S3.
+You create a copy of your object up to 5 GB in size in a
+single atomic operation using this API.
+However, for copying an object greater than 5 GB, you must use the
+multipart upload Upload Part - Copy API.
 
 https://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectCOPY.html
 */
